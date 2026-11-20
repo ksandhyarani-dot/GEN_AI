@@ -18,7 +18,6 @@ response = client.models.generate_content(
     model="gemini-3.5-flash-lite",
     contents="What is Artificial Intelligence? Explain in simple words."
 )
-
 # Step 5: Display output
 print("\nLLM Response:")
 print(response.text)
